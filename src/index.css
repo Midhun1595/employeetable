@@ -1,0 +1,143 @@
+
+
+
+
+.ag-theme-alpine {
+  font-family: "Arial", sans-serif;
+}
+
+
+.employee-table-container {
+  padding: 1.5rem;
+  background-color: #f3f4f6;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.employee-table-wrapper {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #d1d5db;
+  padding: 10px;
+  text-align: center;
+}
+
+.employee-table thead {
+  background-color: #2563eb;
+  color: white;
+}
+
+.employee-table tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.employee-table tbody tr:hover {
+  background-color: #e5e7eb;
+}
+
+
+.container {
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-table{
+  background-color: blue;
+  color: #f3f4f6;
+}
+
+.btn-table tbody tr:nth-child(even) {
+    background-color: #2a639c;
+}
+
+.btn-add {
+  background-color: greenyellow;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  width: 30px 40px;
+  
+}
+
+.btn-search{
+  border-color:black;
+  padding: 5px 8px 4px;
+  color: black;
+}
+
+.btn-dept {
+  border-color: black;
+  padding: 6px 8px 4px 9px;
+  
+}
+
+
+.btn-fil{
+  background-color: blueviolet;
+   font-size: 16px;
+   font-weight: 500;
+   color: white;
+   width: 60px;
+   height: 25px;
+}
+
+.btn-info{
+  background-color: lightseagreen;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  width: 60px;
+  height: 20px;
+}
+
+.btn-sub{
+  background-color: rgb(153,50,204);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  width: 60px;
+  height: 20px;
+}
+
+.btn-primary {
+   background-color: green;
+   font-size: 17px;
+   font-weight: 500;
+   color: white;
+   width: 60px;
+  
+}
+
+.btn-danger {
+  background-color: red;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  width: 60px;
+}
+
+.table-header {
+  text-align: center;
+
+}
+
